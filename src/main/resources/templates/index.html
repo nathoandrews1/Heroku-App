@@ -43,7 +43,7 @@
   <div class="rowForm">
     <div class="col-75">
       <div class="containerForm">
-        <form action= "notReady()">
+        <form action= "notReady(this)">
   
           <div class="rowForm">
             <div class="col-50">
@@ -111,9 +111,10 @@
 
 <!--Inline javaScript-->
 <script>
-  function notReady()
+  function notReady(form)
   {
-    alert("Not ready yet.");
+    form.action = "index.html";
+    alert("Not implemented");
   }
 </script>
 </body>

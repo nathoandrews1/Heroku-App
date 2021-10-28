@@ -28,8 +28,12 @@
       position: relative;
       transition: all 300ms ease;
     }
-    
-    .btn-primary .btn-default:hover {
+    .btn-primary:hover {
+      background-color: white;
+      color: #19110B;
+      transform: translate(0px, -15px);
+    }
+    .btn-default:hover {
       background-color: white;
       color: #19110B;
       transform: translate(0px, -15px); }

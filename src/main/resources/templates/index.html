@@ -43,7 +43,7 @@
   <div class="rowForm">
     <div class="col-75">
       <div class="containerForm">
-        <form onsubmit= "notReady(this)">
+        <form onsubmit= "return notReady(this)">
   
           <div class="rowForm">
             <div class="col-50">
@@ -115,6 +115,7 @@
   {
     form.action = "index.html";
     alert("Not implemented");
+    return false;
   }
 </script>
 </body>

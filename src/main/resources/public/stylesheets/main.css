@@ -5,11 +5,11 @@
   .jumbotron .btn-primary {
     background: #19110B;
     border-color: #F79E1B; }
-    .btn-primary
+    .jumbotron .btn-primary
     {
       transition: all 300ms ease;
     }
-    .btn-default
+    .jumbotron .btn-default
     {
       transition: all 300ms ease;
     }
@@ -27,13 +27,14 @@
     background-color: black;
     background: #19110B;
     background-size: contain;
-    color: #19110B;
+    padding: 5px;
+    color: black;
     border-radius: 2%;
     overflow: hidden;
     width: 25%;
     height: 25%;
     margin: auto;
-    border: 3px solid white; }
+    border: 2.5px solid #F79E1B; }
     .jumbotron .lang-logo img {
       max-width: 100%; }
     

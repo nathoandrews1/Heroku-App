@@ -19,7 +19,7 @@
     .btn-default
     {
       background: #F79E1B;
-      border-color: #EB001B;
+      border-color: black;
       transform: 0px, 0px;
       transition: all 300ms ease; }
 
@@ -29,8 +29,9 @@
       transition: all 300ms ease;
     }
     
-    .btn .btn-lg .btn-primary .btn-default:hover {
-      background: rgb(50, 50, 50);
+    .btn-primary .btn-default:hover {
+      background-color: white;
+      color: #19110B;
       transform: translate(0px, -15px); }
 
   .jumbotron p {

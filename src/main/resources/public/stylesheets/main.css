@@ -4,12 +4,19 @@
   padding-bottom: 80px; }
   .jumbotron .btn-primary {
     background: #19110B;
-    border-color: #F79E1B; }
+    border-color: #F79E1B;
+    transform: 0px, 0px;
+    transition: all 300ms ease; }
+    .jumbotron .btn-default
+    {
+      background: #F79E1B;
+      border-color: #EB001B;
+      transform: 0px, 0px;
+      transition: all 300ms ease; }
+    }
     .jumbotron .btn-primary .btn-default:hover {
       background: rgb(50, 50, 50);
-      transform: translate(0px, -15px);
-      transition: all 300ms ease;
-  }
+    transform: translate(0px, -15px); }
   .jumbotron p {
     color: #d9ccee;
     max-width: 75%;

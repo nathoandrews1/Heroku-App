@@ -5,17 +5,11 @@
   .jumbotron .btn-primary {
     background: #19110B;
     border-color: #F79E1B; }
-    .jumbotron .btn-primary
-    {
-      transition: all 300ms ease;
-    }
-    .jumbotron .btn-default
-    {
-      transition: all 300ms ease;
-    }
     .jumbotron .btn-primary .btn-default:hover {
       background: rgb(50, 50, 50);
-    transform: translate(0px, -15px); }
+      transform: translate(0px, -15px);
+      transition: all 300ms ease;
+  }
   .jumbotron p {
     color: #d9ccee;
     max-width: 75%;
